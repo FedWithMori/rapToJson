@@ -1,0 +1,29 @@
+{   
+    "properties": {
+        "code": {
+            "type": "string"
+        },
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    
+                }
+            }
+        },
+        "info": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "flag": {
+            "type": "string"
+        },
+        "message": {
+            "type": "string"
+        },
+    }
+}

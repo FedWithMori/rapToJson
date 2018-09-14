@@ -1,0 +1,30 @@
+[
+  {
+    "name": "测试栏目",
+    "list": [
+      {
+        "method": "POST",
+        "title": "测试接口名称",
+        "path": "/hades/doctor/exception1113",
+        "req_body_type": "json",
+        "res_body_type": "json",
+        "res_body_is_json_schema": true,
+        "req_body_is_json_schema": true,
+        "req_params": [],
+        "req_headers": [],
+        "res_body": "{\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\"\n    },\n    \"data\": {\n      \"properties\": {\n        \"alertExtData\": {\n          \"type\": \"string\",\n          \"description\": \"桌面提醒地址\"\n        },\n        \"alertText\": {\n          \"type\": \"string\",\n          \"description\": \"桌面提醒方案\"\n        },\n        \"assistState\": {\n          \"type\": \"string\",\n          \"description\": \"医生的医助状态（1.开启，2.关闭）\"\n        },\n        \"bdPhoto\": {\n          \"type\": \"string\",\n          \"description\": \"bd头像地址\"\n        },\n        \"doctorName\": {\n          \"type\": \"string\",\n          \"description\": \"医生姓名\"\n        },\n        \"doctorUserId\": {\n          \"type\": \"string\",\n          \"description\": \"医生id\"\n        },\n        \"patientName\": {\n          \"type\": \"string\",\n          \"description\": \"患者名称\"\n        },\n        \"patientPhoto\": {\n          \"type\": \"string\",\n          \"description\": \"患者头像地址\"\n        },\n        \"patientUserId\": {\n          \"type\": \"string\",\n          \"description\": \"患者的userId\"\n        }\n      },\n      \"$$ref\": \"#/definitions/DoctorPatientInfoModel\"\n    },\n    \"error\": {\n      \"type\": \"boolean\"\n    },\n    \"failure\": {\n      \"type\": \"boolean\"\n    },\n    \"flag\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"success\": {\n      \"type\": \"boolean\"\n    }\n  },\n  \"$$ref\": \"#/definitions/DefaultResponse«DoctorPatientInfoModel»\"\n}",
+        "req_query": [
+            {
+                "desc": "",
+                "example": "134321",
+                "name": "code",
+                "required": "1"
+            }
+        ],
+        "type": "static",
+        "hasTest": "off",
+        "status": "undone"
+      }
+    ]
+  }
+]

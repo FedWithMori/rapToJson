@@ -1,0 +1,14 @@
+{
+  "name": "raptojson",
+  "version": "1.0.0",
+  "description": "rap接口平台数据迁移到Yapi的接口JSON转接工具",
+  "main": "app.js",
+  "scripts": {
+    "build": "node app.js"
+  },
+  "author": "mori",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
